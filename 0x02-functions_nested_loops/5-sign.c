@@ -6,11 +6,11 @@
  * return: 1 for positivee num, -1 for negative num or zero for anything else
  */
 
-int _isalpha(int c)
+int print_sign(int n)
 {
 	if (n > 0)
 	{ 
-		_puchar(43);
+		_putchar(43);
 			return (1);
 	}
 	else if (n < 0)
